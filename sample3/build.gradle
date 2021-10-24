@@ -58,7 +58,7 @@ task smokeTest(type: Test) {
 }
 
 test {
-	exclude '**/acceptance/**'
+	//exclude '**/acceptance/**'
 	exclude '**/smoke/**'
 }
 
